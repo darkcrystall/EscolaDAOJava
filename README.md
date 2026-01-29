@@ -8,7 +8,7 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 
 ## Objetivos do projeto
 
-- Separr responsabilidades no código
+- Separar as responsabilidades no código
 - Demonstrar a comunicação entre Java e Banco de Dados
 - Aplicar boas práticas como:
 - DAO
@@ -53,29 +53,29 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 
 - AlunoDAO (dao)
 
-Responsável por:
+  Responsável por:
 
-Executar comandos SQL
+  Executar comandos SQL
 
-Fazer operações CRUD
+  Fazer operações CRUD
 
-Converter dados do banco em objetos Java
+  Converter dados do banco em objetos Java
 
-Métodos:
+  Métodos:
 
-cadastrar(Aluno aluno)
+  cadastrar(Aluno aluno)
 
-listar()
+  listar()
 
 - Centraliza toda a lógica de acesso ao banco.
 
-- ConnectionFactory (config)
+- ConnectionFactory (config).
 
-Responsável por:
+  Responsável por:
 
-Criar e fornecer conexões com o banco de dados
+  Criar e fornecer conexões com o banco de dados
 
-Centralizar URL, usuário e senha
+  Centralizar URL, usuário e senha
 
 - Facilita manutenção e evita repetição de código.
 
