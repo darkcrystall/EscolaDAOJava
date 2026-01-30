@@ -14,7 +14,7 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 - DAO
 - Model
 - Factory de conexão
-- Evitar SQl Injection
+- Evitar SQL Injection
 - Facilitar a manutenção e evolução do sistema
 
 --- 
