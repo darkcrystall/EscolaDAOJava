@@ -39,6 +39,8 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 
   Não contém SQL, apenas regras de fluxo da aplicação
 
+  ---
+
 - Aluno (model)
 
   Representa a tabela alunos do banco de dados.
@@ -51,6 +53,8 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 
   Getters e Setters
 
+  ---
+  
 - AlunoDAO (dao)
 
   Responsável por:
@@ -67,9 +71,11 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 
   listar()
 
-- Centraliza toda a lógica de acesso ao banco.
+  Centraliza toda a lógica de acesso ao banco.
 
-- ConnectionFactory (config).
+  ---
+  
+- ConnectionFactory (config)
 
   Responsável por:
 
@@ -77,8 +83,10 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 
   Centralizar URL, usuário e senha
 
-- Facilita manutenção e evita repetição de código.
+  Facilita manutenção e evita repetição de código.
 
+  ---
+  
 ## Importância do Padrão DAO
 
 O padrão DAO (Data Access Object) é importante porque:
