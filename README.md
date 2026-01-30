@@ -29,7 +29,7 @@ O sistema permite cadastrar alunos e listar armazenando-os em um banco de dados.
 
 - Main (app)
 
-  Reposnsável por:
+  Responsável por:
   
   Interagir com o usuário via console
 
